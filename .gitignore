@@ -1,0 +1,17 @@
+.DS_Store
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies and local build output
+node_modules/
+dist/
+build/
+
+# Logs and environment
+*.log
+.env
+.env.*
