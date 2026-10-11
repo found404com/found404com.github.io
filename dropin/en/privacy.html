@@ -1,42 +1,119 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>DropIn — Privacy Policy</title><link rel="icon" type="image/png" href="../dropin_icon.png"><link rel="apple-touch-icon" href="../dropin_icon.png"><link rel="stylesheet" href="../styles.css"></head><body><main class="container"><article class="card">
-<nav class="nav">
-<a href="../index.html">DropIn</a>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drop In — Privacy Policy</title>
+<link rel="icon" type="image/png" href="../dropin_icon.png">
+<link rel="apple-touch-icon" href="../dropin_icon.png">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<main class="container">
+<article class="card">
+<nav class="nav" aria-label="Drop In pages">
+<a href="../index.html">Drop In</a>
+<a href="support.html">Support</a>
+<a href="privacy.html" aria-current="page">Privacy Policy</a>
 <a href="terms.html">Terms of Service</a>
-<a href="privacy.html">Privacy Policy</a>
 </nav>
 <h1>Privacy Policy</h1>
-<p class="meta">Effective date: April 30, 2026</p>
+<p class="meta">Last updated: <time datetime="2026-10-11">October 11, 2026</time></p>
+<section id="overview">
 <h2>1. Overview</h2>
-<p>DropIn is an iOS and Apple Watch app for recording video on your iPhone and controlling recording from Apple Watch. The app is designed to work locally on your devices and does not require an account.</p>
-<p>This Privacy Policy explains what information DropIn may access, how it is used, and what choices you have.</p>
+<p>Drop In is an iOS and Apple Watch app for recording video on your iPhone and controlling recording from Apple Watch. The app is designed to work locally on your devices and does not require an account.</p>
+<p>This Privacy Policy explains what information Drop In may access, how it is used, and what choices you have.</p>
+</section>
+<section id="permissions">
 <h2>2. Camera, microphone, and Photos permissions</h2>
-<p>DropIn may request access to the camera to show a live preview and record video. DropIn may request access to the microphone when audio recording is enabled. You can disable the microphone in the app.</p>
-<p>DropIn may request access to Photos when you choose to save videos to Photos or enable auto-save to Photos. If a video is assigned to an album, DropIn may save it to a Photos album with the same name when supported by the system.</p>
+<p>Drop In requests camera access for preview, video recording, and optional participant recognition, and microphone access to record audio. You can change permissions in iOS Settings; the in-app microphone mute control is a Pro feature.</p>
+<p>Photos access is requested when you save a video or enable Pro auto-save. Saving without an album uses add-only access. Saving into a matching album may require read/write access to find or create that album; its name may contain an album or participant name.</p>
+</section>
+<section id="recordings">
 <h2>3. Videos and local gallery</h2>
-<p>Videos recorded with DropIn are saved locally inside the app unless you choose to save or share them elsewhere. The local gallery may store videos, thumbnails, durations, save status, and album assignments.</p>
+<p>Videos recorded with Drop In are saved locally inside the app unless you choose to save or share them elsewhere. The local gallery may store videos, thumbnails, durations, save status, and album assignments.</p>
 <p>Video and audio you record may include personal information about you or other people, such as faces, voices, locations, surroundings, or activities. You are responsible for what you choose to record, save, or share.</p>
+</section>
+<section id="settings">
 <h2>4. Albums and settings</h2>
-<p>DropIn may store app settings on your device, including recording delay, duration limit, camera quality, focus mode, microphone setting, energy saving mode, keep-screen-awake setting, volume-button start setting, auto-save setting, album names, emoji badges, visibility, order, and selected album.</p>
+<p>Drop In may store app settings on your device, including recording delay, duration limit, camera quality, focus mode, microphone setting, energy saving mode, keep-screen-awake setting, volume-button start setting, auto-save setting, album names, emoji badges, visibility, order, and selected album.</p>
+</section>
+<section id="watch">
 <h2>5. Apple Watch remote control</h2>
-<p>The DropIn Watch app acts as a remote control for the iPhone app. To provide this feature, DropIn may sync recording state, connection state, countdown, elapsed time, remaining time, selected album, visible album list, haptics setting, and remote-control commands between your iPhone and Apple Watch.</p>
-<h2>6. How information is used</h2>
+<p>The Drop In Watch app acts as a remote control for the iPhone app. To provide this feature, Drop In may sync recording state, connection state, countdown, elapsed time, remaining time, selected album, visible album list, haptics setting, and remote-control commands between your iPhone and Apple Watch.</p>
+</section>
+<section id="participants">
+<h2>6. Group Training and face templates</h2>
+<p>Optional Group Training, a Pro feature, uses Apple Vision and AuraFace on the iPhone to associate newly recorded videos with a participant and show personal galleries. Local participant profiles contain a name, optional emoji and color, identifiers, dates, active status, capture settings, model version, and numerical face templates (embeddings).</p>
+<p>Face scans and crops are processed in memory, not saved as participant photos. Your recorded videos and their thumbnails may still show faces. Participant names and templates are not sent to a recognition service. Recognition can be wrong: it is gallery organization, not biometric authentication, identity verification, or spoofing protection. Obtain participants’ permission before registering their faces.</p>
+</section>
+<section id="model">
+<h2>7. Optional model and network requests</h2>
+<p>The AuraFace model file is downloaded over HTTPS only after explicit download confirmation. Opening or refreshing the model screen can request a manifest describing the model before that confirmation. These requests do not contain your videos, face images, templates, or participant names.</p>
+<p>The server delivering the manifest or model receives technical request information, such as an IP address, time, requested file, and HTTP headers, and may keep access logs. Downloaded model files and runtime caches are stored on the device. Recognition runs locally after installation; downloading, updating, or checking model availability can need internet access.</p>
+<p>The manifest and model are delivered through GitHub Releases and GitHub’s download infrastructure. Technical requests are subject to the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+</section>
+<section id="purchases">
+<h2>8. Apple-managed purchases</h2>
+<p>Apple handles Pro payments through the App Store. Drop In uses StoreKit product and transaction information, such as product identifiers, purchase validity, subscription expiration or revocation, and a locally cached Pro status, to unlock or restore features. The app does not receive your payment card details. Apple processes purchase information under its own privacy practices.</p>
+</section>
+<section id="website">
+<h2>9. Support and legal website</h2>
+<p>These support and legal pages are hosted on GitHub Pages. GitHub records visitors’ IP addresses for security purposes. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. Opening an Apple help link takes you to Apple’s website, with its own privacy practices.</p>
+</section>
+<section id="use">
+<h2>10. How information is used</h2>
 <p>Information is used to provide camera preview, recording, countdown, automatic stop, local gallery, album filtering, video playback, sharing, saving to Photos, Watch remote control, haptics, sounds, error alerts, and app settings you choose to use.</p>
-<h2>7. Local processing</h2>
-<p>DropIn does not require an account and does not upload your videos, audio, albums, or settings to our servers. Your content is processed locally on your devices.</p>
-<h2>8. Sharing and export</h2>
-<p>When you share a video, save it to Photos, send it to another app, or store it in a cloud service, that destination may process the video under its own privacy practices. You control when you export or share videos outside DropIn.</p>
-<h2>9. Data sharing and sale</h2>
-<p>DropIn does not sell your videos, audio, albums, or settings. DropIn does not share this information with advertisers, data brokers, or third parties for advertising or profiling.</p>
-<h2>10. Analytics and diagnostics</h2>
-<p>DropIn may use privacy-preserving diagnostics or crash information provided by Apple or the operating system to improve app stability. This information does not include your recorded videos. If additional analytics are added in the future, this policy will be updated.</p>
-<h2>11. Data retention</h2>
-<p>Videos and settings remain on your device until you delete them, delete the app, or remove them using system tools. Videos saved to Photos remain in Photos until you delete them there.</p>
-<h2>12. Children</h2>
-<p>DropIn is not intended for use by children under the age required by local law to use recording apps, manage App Store downloads, or consent to recording without parental consent.</p>
-<h2>13. Security</h2>
-<p>DropIn uses platform-provided protections from iOS, watchOS, and Photos. However, no device or software system can be guaranteed to be completely secure. You should protect your device, Photos library, and shared videos appropriately.</p>
-<h2>14. Changes to this policy</h2>
+</section>
+<section id="local">
+<h2>11. Local processing</h2>
+<p>Drop In does not require an app account or provide its own cloud gallery. Video, audio, album data, settings, participant profiles, and face templates are processed on your device, not uploaded to the developer for processing. This does not mean the app makes no network requests: model delivery and Apple purchases are described above, and exports, system backups, and support emails are described below.</p>
+</section>
+<section id="sharing">
+<h2>12. Sharing and export</h2>
+<p>Sharing or saving to Photos sends the video to your chosen destination. Shared filenames and matching Photos album names can include participant or album names. Photos, iCloud Photos, device backups, and other destinations may store or sync data according to your settings and their own privacy practices. Drop In does not control those copies.</p>
+</section>
+<section id="data-sharing">
+<h2>13. Data sharing and sale</h2>
+<p>Drop In does not sell your recordings, albums, settings, participant profiles, or face templates, or share them for advertising or profiling. Recognition templates are used to organize your local gallery, not for advertising.</p>
+</section>
+<section id="diagnostics">
+<h2>14. Analytics and diagnostics</h2>
+<p>The app does not integrate advertising or third-party analytics SDKs. Apple or the operating system may provide diagnostics and crash information according to your system privacy settings; this is separate from your recorded videos.</p>
+</section>
+<section id="delete">
+<h2>15. Data retention</h2>
+<p>Open Settings → Privacy → Participant data for the deletion controls. This route remains available without Pro and without an installed face model.</p>
+<p>Local recordings, settings, participant profiles, and templates remain until you remove them or delete the app. In Manage participants, you can delete a profile or all participants and templates. Deleting a participant leaves existing videos unassigned; it does not delete those videos. The downloaded model and Core ML cache have separate deletion controls. Turning off Group Training or cancelling Pro does not itself erase these files.</p>
+<p>Delete videos in the gallery and remove exported copies separately in Photos or other destinations. Deleting the app, rather than offloading it, removes its local data; backups and exported copies may remain. See <a href="support.html#delete">deletion help</a>.</p>
+</section>
+<section id="children">
+<h2>16. Children</h2>
+<p>Drop In is not intended for use by children under the age required by local law to use recording apps, manage App Store downloads, or consent to recording without parental consent.</p>
+</section>
+<section id="security">
+<h2>17. Security</h2>
+<p>Drop In uses platform-provided protections from iOS, watchOS, and Photos. However, no device or software system can be guaranteed to be completely secure. You should protect your device, Photos library, and shared videos appropriately.</p>
+</section>
+<section id="changes">
+<h2>18. Changes to this policy</h2>
 <p>We may update this Privacy Policy from time to time. The updated version will be posted on this page with a new effective date.</p>
-<h2>15. Contact</h2>
-<p>For privacy questions, contact: <a href="mailto:brazier_jests8l@icloud.com">brazier_jests8l@icloud.com</a></p>
-<p class="footer">© 2026 DropIn. All rights reserved.</p></article></main></body></html>
+</section>
+<section id="contact">
+<h2>19. Contact</h2>
+<p>For privacy questions or requests about support correspondence, email <a href="mailto:brazier_jests8l@icloud.com">brazier_jests8l@icloud.com</a>. If you contact us, we receive your email address, message, and any attachments to handle your request. Avoid sending face templates or sensitive recordings. We cannot remotely access or delete data stored only on your device.</p>
+</section>
+<nav class="language-nav" aria-label="Languages">
+<a href="../en/privacy.html" lang="en" hreflang="en" aria-current="page">English</a>
+<a href="../fr/privacy.html" lang="fr" hreflang="fr">Français</a>
+<a href="../de/privacy.html" lang="de" hreflang="de">Deutsch</a>
+<a href="../es/privacy.html" lang="es" hreflang="es">Español</a>
+<a href="../ru/privacy.html" lang="ru" hreflang="ru">Русский</a>
+<a href="../zh-Hans/privacy.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
+<a href="../ja/privacy.html" lang="ja" hreflang="ja">日本語</a>
+</nav>
+<footer class="footer">© 2026 Drop In. All rights reserved.</footer>
+</article>
+</main>
+</body>
+</html>
